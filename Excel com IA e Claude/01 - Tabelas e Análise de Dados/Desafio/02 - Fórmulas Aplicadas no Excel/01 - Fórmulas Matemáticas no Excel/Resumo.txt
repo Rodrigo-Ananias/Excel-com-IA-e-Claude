@@ -1,0 +1,41 @@
+O que veremos? A fórmulas de matemáticas mais usadas no excel. Elas são fórmulas básicas, de apoio e ademais.
+
+As fórmulas são: soma, mínimo e máximo, média e aleatório entre, cont.valores e cont.vazio, soma.se, soma.ses, cont.se e cont.ses.
+
+O primeiro símbolo é sempre um sinal de igual (=). Os dois-pontos (:) define um intervalo continuo. E o ponto-vírgula (;) define múltiplas seleções em posições distintas.
+
+SOMA
+
+A soma ela serve para selecionar intervalos e conjunto de intervalos. Há um atalho chamado ALT+ que soma os conjuntos de dados da célula acima. Vale reseltar que o dois-pontos (:) seleciona um intervalo específico e ponto vírgula (;) consegue selecionar outro conjunto, pois é um outro argumento.
+
+Mínimo e Máximo
+
+Mínimo olha uma lista de valores e retorna o menor valor dentre eles. Já o Máximo, verifica uma lista e retorna o maior dentre eles.
+
+MínimoA não ignora valores lógicos e textos. Ele não ignora os textos, mas considera eles como 0. O MáximoA faz o contrário, sem ignorar valores lógicos e textos.
+
+Média e Aleatório.entre
+
+Aleatório.entre é uma fórmula que permite colocar números aleatórios dentro de um intervalo específico, como (1;10).
+Média é uma fórmula que resulta na média de um intervalo definido. A fórmula MÉDIA calcula a média aritmética dos valores em um intervalo de células.
+
+Cont Valores e Cont Vazios
+
+CONT.VALORES procura num intervalo específico o número de células que não estão vazios.
+CONTAR.VAZIO conta o número de células vazias em um intervalo específico.
+
+SOMA.SE
+
+SOMA.SE é uma fórmula de soma com base em um critério/condicional. Você escolhe intervalo que tu ta buscado, define o seu critério e, por fim, específica a coluna de soma. Exemplo: Qual é o custo dos profissionais analistas? Eu específico o meu intervalo (os cargos), seleciono o critério (dentre os cargos, o de analista) e defino o intervalo de soma (Salário). Ele soma valores fato.
+
+SOMA.SES
+
+SOMA.SES é quando você quer somar com mais de uma condição. Nesse caso você define primeiro o intervalo de soma, seguido dos intervalo e do critério de cada condicional.
+A fórmula SOMASE soma os valores de um intervalo que atendem a um único critério, enquanto a fórmula SOMASES soma os valores de um intervalo que atendem a múltiplos critérios.
+
+CONT.SE e CONT.SES
+
+CONT.SE calcula o número de células que atendem uma condição/critério. Então eu seleciono o intervalo e depois o critério. A fórmula CONT.SE conta o número de células em um intervalo que atendem a um critério específico.
+
+CONT.SES calcula o número de células que atendem mais de uma condição. 
+A fórmula CONT.SE conta o número de células em um intervalo que atendem a um único critério, enquanto a fórmula CONT.SES conta o número de células que atendem a múltiplos critérios.

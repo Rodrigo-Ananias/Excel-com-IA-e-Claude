@@ -1,0 +1,66 @@
+O que veremos nessa aula? Formas de busca e de texto.
+Vamos começar a olhar combinação de fórmulas. Vamos aprender técnicas. Veremos o PROCV, Esquerda e Direita, Substituir, Procurar e extrair, Corresp e da técnica da fórmula do filtro.
+
+Aprenderemos a gramática das fórmulas, ou seja, como montar uma sentença de fórmulas que fazem sentido e legibilidade.
+
+Use case - Cadê o meu jogo?
+
+Em um cenário onde você é um colecionador de jogos e pretende colecionar seus jogos favoritos você teve dificuldades com o rastreamento de seus pedidos. Por serem jogos vendidos globalmente, alguns títulos estão disponíveis apenas no estrangeiro, sendo assim você importou de todas as partes do mundo. Porém, o site da empresa está bugado e o status não está funcionando direito dentre outras coisas. Vamos resolver esse pepino!
+
+
+Fórmulas de Tratamento
+
+Fórmulas de tratamento de texto no Excel são usadas para manipular, modificar e extrair informações de texto, como concatenar, substituir ou encontrar caracteres dentro de uma célula.
+
+Fórmulas de Busca
+
+Fórmulas de busca no Excel são usadas para localizar e retornar um valor em um intervalo de células com base em um critério específico, como PROCV.
+
+- PROCV
+
+O PROCV tem como objetivo realizar uma procura pela vertical. Ele pega um valor específico e procura em uma coluna específico. Uma vez encontrado esse valor, ele pergunta "quantas casas para direita você quer andar para retornar o valor desejado?". E, por fim, o valor é exato (0) ou aproximado (1).
+
+A fórmula PROCV pode ser configurada para buscar valores aproximados ou exatos, dependendo do valor do argumento "procurar_intervalo".
+A fórmula PROCV procura um valor na primeira coluna de um intervalo e retorna um valor de uma coluna especificada à direita.
+
+- Direita, Esquerda & Substituir
+
+DIREITA ela retorna um número de caracteres especificados do final de uma cadeia de texto. Ou seja, ela pega um texto e começa da direta para esquerda e pergunta quantas coisas você quer retirar dali.
+A fórmula DIREITA retorna um número especificado de caracteres do final de uma cadeia de texto.
+
+ESQUERDA faz o contrário, ela ler o texto da esquerda para direita e pergunta quantos caracteres você quer.
+
+SUBSTITUIR faz uma substituição dentro da fórmula. Você seleciona a célula que tem o texto, insere o texto antigo que você quer inserir e inseri o novo texto, e, caso seja necessário, inseri o número de vezes que é necessário para fazer essa substituição.
+A fórmula SUBSTITUIR substitui uma parte de um texto por um novo valor, a partir de uma posição específica.
+
+Para inserir fórmula dentro de fórmula, é só pegar a parte da referência da célula (C19) e substituir pela fórmula existente dentro da célula [substituir(xx;xx;xx)].
+
+- Procurar e Extrair
+
+Primeiro devemos identificar o caractere delimitador inicial, depois extrair o contéudo interno e, por fim, identificar o caractere delimitador final. 
+
+A fórmula PROCURAR encontra a posição de um caractere ou sequência de caracteres dentro de um texto.
+PROCURAR retorna a posição inicial de uma cadeia de texto dentro de outra cadeia de texto e diferencia maiúsculas de minúsculas.
+
+EXT.TEXTO ela retorna os caractere do meio de um texto tendo a posição e final do texto desejado.
+A fórmula EXT.TEXTO extrai uma parte de um texto de acordo com a posição inicial e o número de caracteres especificados.
+
+Sempre que for colocar fórmulas dentro de fórmulas, substitua o valor pela última fórmula e não esqueça de fechar com parênteses as fórmulas de substituição para evitar erro na leitura.
+
+- CORRESP
+
+Retorna um valor procurado. Retorna a posição de um valor dentro de um vetor. Ele é muito útil para identificar o índice da coluna que você quer buscar no PROCV, sendo uma ótima escolha para tornar a consulta mais dinâmica, sem interferência caso haja alteração da coluna.
+
+- Preenchimento Relâmpago
+
+É uma forma útil de preencher rapidamente padrões facilmente identificadas, mas não é dinâmico. Atualizo u um dado? Terá que refazer o preenchimento relâmpago.
+
+- Filtro
+
+Pede a matriz que você quer usar como base, depois pergunta qual coluna você quer incluir para filtrar e equiparar a sua subcategoria desejada (como Status> Pending) e pergunta se quer um valor exato ou aproximado.
+
+Conclusão
+
+Se possível, faça um relatório dinâmico. Combine fórmulas e diferentes elementos para deixar o relatório mais flexível possível. Caso alguém mude um dado e o relatório bugar, repense a forma como você criou o relatório. Uma simples mudança não pode inutilizar um relatório inteiro.
+
+
