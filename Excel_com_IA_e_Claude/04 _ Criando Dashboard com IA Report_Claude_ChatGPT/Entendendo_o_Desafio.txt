@@ -1,0 +1,76 @@
+Criando uma Dashboard da Porsche com Agentes de IA
+
+Entendendo o Desafio
+Agora é a sua hora de praticar, aprender fazendo e transformar uma planilha de vendas da Porsche em uma dashboard interativa, publicada na web e sem as limitações do Excel.
+
+Base de Dados do Desafio:
+Planilha base Porsche (sanitizada)
+
+São 100 vendas, cada campo em duas versões: o dado cru e o sanitizado no Curso Criando Agentes de Tratamento de Dados.
+
+Nas Aulas, o Expert Felipe Aguiar, o Felipão, percorre esse caminho duas vezes, pelo ChatGPT com o recurso Canvas e por um agente com skill própria, e deixa a dashboard publicada. Agora é a sua vez, com as suas perguntas de negócio.
+
+O Que Criar
+Uma dashboard em HTML, arquivo único, que responda perguntas de negócio sobre as vendas e fique no ar com link próprio.
+
+O que precisa funcionar:
+
+Três perguntas de negócio escolhidas por você, cada uma respondida por um gráfico ou indicador;
+Filtros que deixem recortar os dados, como modelo, cidade, ano ou método de pagamento;
+Indicadores de topo, como total de vendas e receita;
+Um visual coerente, com a paleta e a tipografia que você escolheu.
+A pergunta de negócio separa a dashboard útil do amontoado de gráficos. Felipão mostra isso pelo avesso: o agente que recebeu a base sem pergunta devolveu uma tela quebrada.
+
+Como Fazer
+Não existe repositório base. Você parte da planilha, e o caminho que o Expert mostra tem quatro passos:
+
+Prepare a base. Fique só com as colunas sanitizadas, converta preço e ano em número e cole como valores, para não sobrar fórmula quebrada;
+Escreva o prompt. Peça a dashboard em HTML no Canvas, com os filtros, as perguntas e a referência visual que você definiu;
+Refine em linguagem natural. Troque uma pergunta, peça um gráfico novo, e corrija pelo console quando algo quebrar;
+Publique. Baixe o HTML, salve como index.html, suba para um repositório na sua conta e ligue o GitHub Pages em Settings.
+Vale fazer o segundo caminho: crie um agente, anexe a base e dê a ele uma skill de montar dashboard. Comparar os dois é metade do aprendizado. Os Agentes pedem a versão paga do ChatGPT.
+
+Ideias para Evoluir
+Trocar o filtro de cidade por estado e ver o que muda;
+Atualizar a dashboard mandando o HTML atual junto com uma base nova;
+Usar outra marca como referência visual e comparar o resultado;
+Pedir uma versão no estilo dos componentes do Power BI;
+Voltar à base crua e escrever uma segunda regra para os registros que ficaram INVALID;
+Montar um agente com duas skills, uma que trata o dado e outra que desenha.
+Se você ainda está começando, tudo bem. Uma dashboard com duas perguntas bem respondidas e bem explicadas vale mais que oito gráficos que ninguém sabe ler.
+
+Uma Ajuda durante o Caminho
+Se travar em algum ponto, o DIO Agent ajuda a destravar o raciocínio:
+
+Tenho uma planilha com 100 vendas da Porsche, com modelo,
+cidade, estado, ano, preço e método de pagamento.
+
+Me ajude a escolher três perguntas de negócio que valham uma
+dashboard, e a escrever o prompt que gera essa dashboard em
+HTML com os filtros certos.
+
+Importante: não quero uma resposta pronta para copiar.
+Quero entender o processo e construir a minha.
+O Que Entregar
+Publique a dashboard no GitHub Pages e deixe o código em um repositório público na sua conta. No README.md, explique:
+
+Quais perguntas de negócio você escolheu, e por quê;
+O prompt que gerou a dashboard, e o que mudou nele até a versão final;
+Que tratamento a base precisou antes de ir para a IA;
+Se você usou o ChatGPT com Canvas, um agente com skill, ou os dois;
+O endereço da dashboard publicada.
+Print da tela e um exemplo de filtro aplicado contam muito. Evidência de que a dashboard roda é o que mais pesa no portfólio.
+
+Antes de submeter, confira:
+
+A dashboard abre pelo link do GitHub Pages, com os filtros funcionando;
+Todo arquivo citado no README existe e tem conteúdo;
+O link enviado é o do repositório, não o da dashboard;
+O repositório está na sua conta e público;
+Nenhum dado sensível entrou na base, porque ela vai embutida no HTML;
+O nome do repositório ficou legível, em minúsculas e sem acento.
+Resultado Esperado
+Ao final, você terá uma dashboard no ar, com endereço próprio. Quem abrir o repositório vê o caminho inteiro: o dado que você tratou, o que pediu à IA e o que decidiu mudar. Escolher a ferramenta e saber explicar a escolha é o que diferencia quem analisa dados de quem decorou onde clicar.
+
+Bons estudos e bom projeto 🚀
+
